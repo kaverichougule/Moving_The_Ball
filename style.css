@@ -1,0 +1,14 @@
+#ball{
+    background-color: #9702fb;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    left: 1px;
+    top: 1px;
+    display: inline;
+    padding-top: 60px;
+    padding-left: 60px;
+    box-sizing: border-box;
+    color: white;
+}
