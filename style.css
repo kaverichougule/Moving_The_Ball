@@ -1,5 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: #370559;
+    height: 100vh;
+}
 #ball{
-    background-color: #9702fb;
+    background-color: #bd65f7;
     border-radius: 50%;
     height: 150px;
     width: 150px;
@@ -12,3 +21,10 @@
     box-sizing: border-box;
     color: white;
 }
+/* .magic_ball{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 50vw;
+    height: 90vh;
+} */

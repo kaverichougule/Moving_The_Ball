@@ -1,23 +1,23 @@
 let ball=document.getElementById("ball");
 document.addEventListener('keydown',moveBall);
-
+let audio=new Audio("./audio.mp3")
 let t=0;
 let l=0;
 function moveBall(event){
     let browserHeight=document.documentElement.clientHeight;
     let browserWidth=document.documentElement.clientWidth;
-    console.log(browserHeight,browserWidth)
+    // console.log(browserHeight,browserWidth)
     let elementWidth=ball.offsetWidth;
     let key=event.keyCode;
-    console.log(key);
-
+    // console.log(key);
+    audio.play();
     if(key==68 || key==39){
         if(l+elementWidth +10 <= browserWidth){
+            
             ball.style.left=l+10+"px";
             l+=10;
         }
     }
-
     if(key==83 || key==40){
         if(t+elementWidth+10<=browserHeight){
             ball.style.top=t+10+"px";
